@@ -1,4 +1,7 @@
-@import "variables";
-@import "mixins";
+@import "base/variables";
+@import "base/mixins";
 @import "general";
 @import "media";
+*{
+  font-family: 'Museo Sans Cyrl', sans-serif;
+}
