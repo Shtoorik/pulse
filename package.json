@@ -24,5 +24,8 @@
     "> 2%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "jshint": "^2.13.4"
+  }
 }

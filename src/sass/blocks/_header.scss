@@ -28,7 +28,13 @@
     font-weight: 700;
     text-align: right;
     &:hover {
-      color: beige;
+      color: #fff;
+      text-decoration: none;
     }
+  }
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 }

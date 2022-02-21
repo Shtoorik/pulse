@@ -1,9 +1,14 @@
-@import "base/variables";
-@import "base/mixins";
-@import "blocks/promo";
-@import "blocks/header";
-@import "blocks/buttons";
-*{
+@import 'base/variables';
+@import 'base/mixins';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/title';
+@import 'blocks/benefits';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+// @import 'blocks/';
+* {
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
 .container {
