@@ -7,12 +7,13 @@
 @import 'blocks/benefits';
 @import 'blocks/consultation';
 @import 'blocks/forms';
-// @import 'blocks/';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
 .container {
+  position: relative;
   max-width: 950px;
   margin: 0 auto;
-  color: #ffffff;
 }

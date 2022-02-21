@@ -1,7 +1,7 @@
 .promo {
   min-height: 650px;
   padding: 21px 0 93px 0;
-  background: url('../../img/img/background_1@2x.webp') center (center / cover)
+  background: url('../img/img/background_1@2x.webp') center (center / cover)
     no-repeat;
   &__wrapper {
     display: flex;
@@ -42,7 +42,6 @@
       display: block;
       margin: 0 auto;
       // margin-bottom: 20px;
-      transform: scale(0.5);
     }
   }
   &__link {
