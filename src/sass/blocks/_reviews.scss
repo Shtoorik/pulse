@@ -1,0 +1,37 @@
+.reviews {
+  padding-bottom: 71px;
+
+  &-item {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    &__text {
+      max-width: 656px;
+      margin-left: 62px;
+    }
+    &__fio {
+      color: #0d0d0d;
+      font-size: 18px;
+      text-align: left;
+      font-weight: 700;
+    }
+    &__basket {
+      color: #646464;
+      font-size: 14px;
+      text-align: left;
+      font-weight: 300;
+      margin-top: 10px;
+    }
+    &__descr {
+      color: #0d0d0d;
+      font-size: 16px;
+      text-align: left;
+      font-weight: 300;
+      margin-top: 19px;
+    }
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
