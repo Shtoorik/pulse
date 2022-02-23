@@ -102,9 +102,9 @@
           <br />
           и мы перезвоним вам в течении 10 минут
         </div>
-        <form class="feed-form" action="">
+        <form id="consultation-form" class="feed-form" action="">
           <input name="name" required type="text" placeholder="Ваше имя" />
-          <input name="phone" required type="number" placeholder="Ваш телефон" />
+          <input name="phone" required placeholder="Ваш телефон" />
           <input name="email" required type="email" placeholder="Ваш E-mail" />
           <!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ"> -->
           <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
@@ -453,9 +453,9 @@
         <div class="modal__subtitle">Просто заполните форму заявки</div>
         <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
         <form class="feed-form feed-form_mt25" action="">
-          <input name="name" required type="text" placeholder="Ваше имя" />
-          <input name="phone" required type="number" placeholder="Ваш телефон" />
-          <input name="email" required type="email" placeholder="Ваш E-mail" />
+          <input name="name" type="text" placeholder="Ваше имя" />
+          <input name="phone" placeholder="Ваш телефон" />
+          <input name="email" type="email" placeholder="Ваш E-mail" />
           <!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ"> -->
           <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
           <!-- <input type="reset" value=""> -->
@@ -469,7 +469,7 @@
         <div class="modal__descr">Пульсометр Polar FT1</div>
         <form class="feed-form feed-form_mt25" action="">
           <input name="name" required type="text" placeholder="Ваше имя" />
-          <input name="phone" required type="number" placeholder="Ваш телефон" />
+          <input name="phone" required placeholder="Ваш телефон" />
           <input name="email" required type="email" placeholder="Ваш E-mail" />
           <!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ"> -->
           <button class="button button_submit">купить</button>
@@ -486,6 +486,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
