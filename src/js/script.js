@@ -109,7 +109,7 @@ document.querySelector('.next').addEventListener('click', function () {
       e.preventDefault();
 
       if (!$(this).valid()) {
-        return;
+         return;
       }
 
       $.ajax({
