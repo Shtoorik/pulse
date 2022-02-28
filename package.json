@@ -28,6 +28,7 @@
     "not dead"
   ],
   "dependencies": {
+    "dotenv": "^16.0.0",
     "jshint": "^2.13.4"
   }
 }

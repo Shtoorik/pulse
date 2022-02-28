@@ -1,5 +1,4 @@
 <?php 
-
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email = $_POST['email'];
@@ -11,15 +10,15 @@ $mail->CharSet = 'utf-8';
 // $mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = '	smtp.mail.ru';  // Specify main and backup SMTP servers
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'sergey.mladshiy@mail.ru';                 // Наш логин
-$mail->Password = 'xp7vw5A6';                           // Наш пароль от ящика
+$mail->Username = 'shtoorik@gmail.com';                 // Наш логин
+$mail->Password = 'ryahuofvrwjyhmzj';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('', 'Pulse');   // От кого письмо 
-$mail->addAddress('fwg71451@boofx.com');     // Add a recipient
+$mail->setFrom('shtoorik@gmail.com', 'Pulse');   // От кого письмо 
+$mail->addAddress('james.film@mail.ru');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
